@@ -1,0 +1,87 @@
+@font-face {
+    font-family: f1;
+    src: url(./sf-pro-display_regular.woff2);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+#nav{
+    background-color: #1D1D1F;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    color: #fff;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h4{
+    font-family: f1;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#center{
+    width: 100%;
+    height: 90%;
+    color: #fff;
+    padding: 50px 20px;
+    background: url(./image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#center #buttons{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#center h1{
+    font-family: f1;
+    font-size: 90px;
+    background: linear-gradient(to right, #E4B685, #C95C25);
+    background-clip: text;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#center h3{
+    font-family: f1;
+    font-size: 40px;
+    color: #FF9A54;
+}
+
+#buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0066CC;
+    color: #fff;
+    font-family: f2;
+    font-size: 16px;
+}
