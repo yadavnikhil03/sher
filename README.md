@@ -6,10 +6,12 @@
 
 ---
 
-## Daily Challenge — Task 2 (click to expand)
+## Daily Challenge
 
 <details>
   <summary><strong>Daily Challenge — Task 2</strong></summary>
+ 
+   Click any image to open the live demo.
 
   <p align="center">
     <a href="https://yadavnikhil03.github.io/sher/DailyChellenge/Task-2/" target="_blank" rel="noopener noreferrer">
@@ -21,7 +23,7 @@
 
 ---
 
-## Tasks  (click to expand)
+## Assignments
 
 <details>
   <summary><strong>Tasks</strong></summary>
