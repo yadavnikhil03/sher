@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <div class="nav_links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Look Book</a>
+            </div>
+            <div class="nav_links">
+                <a href="#">about</a>
+                <a href="#">news</a>
+                <a href="#">cart</a>
+            </div>
+        </div>
+
+        <h1>Sweaters</h1>
+
+        <div id="images">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.zjbFhk9RMx0U2hfKWAg_dgHaLH?cb=12&w=650&h=975&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Sweater Image" id="sweater_img1">
+            <img src="https://tse1.explicit.bing.net/th/id/OIP.ZN5mAIQTOdxwaNTlN58U1QHaLG?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="Sweater Image" id="sweater_img2">
+            <img src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0084c9bb-8776-4fc8-ac2e-880a7d3ec2e5/width=700/ComfyUI_00316_.jpeg"
+                alt="Sweater Image" id="sweater_img3">
+
+        </div>
+
+        <div id="btm_left">
+            <h2>Product Details</h2>
+            <p class="description">Discover our collection of cozy and stylish sweaters perfect for any occasion. Whether you're looking for a casual look or something more formal, we have the perfect sweater for you.</p>
+            <h2>Material</h2>
+            <p id="material_info"></p>
+            <script>
+                // Set material dynamically; update this variable for different products
+                const material = "100% Cotton";
+                document.getElementById("material_info").textContent = material;
+            </script>
+        </div>
+
+        <div id="btm">
+            <p>New Collection</p>
+            <div class="btm_nav">
+                <a href="#">Shop the look</a>
+                <a href="#">➔</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
