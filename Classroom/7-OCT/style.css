@@ -1,0 +1,89 @@
+/* #box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+
+/* h1{
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 50% 20% 10%;
+    grid-template-rows: 30% 50% 10% 10%;
+
+}
+.box{
+    background-color: lightgreen;
+    border: 2px Black;
+
+}
+
+.box:nth-last-child(2){
+    background-color: lightcyan;
+    border-bottom: 2px solid deepskyblue; 
+}
+   
+
+.box:nth-child(2n){
+    background-color: lightcoral;
+}
+.box:nth-child(3n){
+    background-color: lightcoral;
+}
+.box:nth-child(4n){
+    background-color: lightcoral;
+} */
+
+/*
+body{
+   background-color: black;
+}
+
+h1{
+    font-size: 200px;
+    font-family: helvetica;
+    color: transparent;
+     background-image: url(https://gifdb.com/images/high/rainbow-color-waves-art-wtvkynr81w5cjzwp.gif);
+     background-clip: text;
+     text-align: center;
+     border: 2px solid white;
+     -webkit-text-stroke: 3px lightpink;
+    /* background: linear-gradient(to right, lightblue, deepskyblue); */
+    /* background: linear-gradient(to right, lightblue, deepskyblue);
+} 
+    */
+
+
+#parent{
+
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+    gap: 30px;
+
+}
+
+.child{
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    flex-shrink: 0;
+
+}
+.child img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.5s;
+    transition: 0.5s;
+}
