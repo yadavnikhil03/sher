@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    text-align: center;
+    padding-top: 20px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: antiquewhite;
+    font-size: 5em;
+    letter-spacing: 0.4em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #B8B8C6;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+p {
+    font-family: sans-serif;
+    color: #d2d2d2;
+    font-size: 1.3em;
+}
+
+#aboutme {
+    background-color: #1A1528;
+    padding: 20px 5vw;
+    margin-top: 20px;
+}
+
+#aboutme > p {
+    padding: 0 10%;
+    padding-bottom: 10px;
+}
+
+#education {
+    background-color: #720f3a;
+    padding: 20px 5vw;
+    margin-top: 20px;
+}
+
+#education p {
+    color: #720f3a;
+    background-color: #d2d2d2;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#skills {
+    background-color: #1c3969;
+    padding: 20px 5vw;
+    margin-top: 20px;
+}
+
+#skills p {
+    color: #1c3969;
+    background-color: #d2d2d2;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#projects {
+    background-color: #720f3a;
+    padding: 20px 5vw;
+    margin-top: 20px;
+}
+
+#projects p {
+    color: #720f3a;
+    background-color: #d2d2d2;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#contacts {
+    background-color: #1c3969;
+    padding: 20px 5vw;
+    margin-top: 20px;
+}
+
+#contacts p {
+    color: #1c3969;
+    background-color: #d2d2d2;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+    text-align: left;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+#contacts img {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: #1c3969;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+#contacts a:hover {
+    color: #720f3a;
+}
+
+footer {
+    color: #d2d2d2;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1em;
+}
