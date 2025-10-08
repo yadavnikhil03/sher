@@ -1,0 +1,454 @@
+@font-face {
+    font-family: f1;
+    src: url(./fonts/DzinerHub1.woff2);
+}
+@font-face {
+    font-family: f2;
+    src: url(./fonts/85daad9dfca39e48-s.p.woff2);
+}
+@font-face {
+    font-family: f3;
+    src: url(./fonts/8894d4fc112b8f24-s.p.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+#page1{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+#card1{
+    height: 40vh;
+    width: 22%;
+    background-color: #7F97FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card1 img{
+    width: 75%;
+    position: absolute;
+    top: -11vw;
+}
+#card1 h1{
+    margin-top: 190px;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-family: f1;
+}
+
+#card1 button{
+    background-color: skyblue;
+    padding: 8px 22px;
+    font-family: f2;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#card1 button:hover{
+    color: rgb(2, 53, 72);
+    background-color: transparent;
+    border: 1px solid skyblue;
+}
+
+#card2{
+    height: 40vh;
+    width: 22%;
+    background-color: #F9893D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card2 img{
+    width: 65%;
+    position: absolute;
+    top: -7vw;
+}
+#card2 h1{
+    margin-top: 190px;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-family: f1;
+}
+
+#card2 button{
+    background-color: pink;
+    padding: 8px 22px;
+    font-family: f2;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#card2 button:hover{
+    color: rgb(2, 53, 72);
+    background-color: transparent;
+    border: 1px solid rgb(238, 34, 68);
+}
+
+#card3{
+    height: 40vh;
+    width: 22%;
+    background-color: #ee3643;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card3 img{
+    width: 50%;
+    position: absolute;
+    top: -7vw;
+}
+#card3 h1{
+    margin-top: 190px;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-family: f1;
+}
+#card3 button{
+    background-color: #7F97FB;
+    padding: 8px 22px;
+    font-family: f2;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#card3 button:hover{
+    color: rgb(2, 53, 72);
+    background-color: transparent;
+    border: 1px solid #7F97FB;
+}
+
+
+#card4{
+    height: 40vh;
+    width: 22%;
+    background-color: #A2A099;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card4 img{
+    width:58%;
+    position: absolute;
+    top: -7vw;
+}
+#card4 h1{
+    margin-top: 190px;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-family: f1;
+}
+
+#card4 button{
+    background-color: #F9893D;
+    padding: 8px 22px;
+    font-family: f2;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#card4 button:hover{
+    color: rgb(2, 53, 72);
+    background-color: transparent;
+    border: 1px solid #7F97FB;
+}
+
+#page2{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#card21{
+    width:19%;
+    height: 46vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+    padding: 15px;
+}
+
+#card21in{
+    height: 85%;
+    width: 100%;
+    background-color: #D0C5BB;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#card21in h1{
+        font-family: f2;
+        font-size: 2vw;
+}
+
+
+#card21in img{
+    width: 100%;
+    position: absolute;
+    bottom: -10.5vw;
+    left: 0;
+}
+
+#card21out{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+#card21out h1{
+    font-family: f2;
+    font-size: 1.2vw;
+}
+
+#card21out button{
+    padding: 7px 8px;
+    font-size: 0.7vw;
+    font-family: f2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card22in{
+    height: 85%;
+    width: 100%;
+    background-color: #A3BAAC;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#card22{
+    width:19%;
+    height: 46vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+    padding: 15px;
+}
+
+#card22in h1{
+    font-family: f2;
+    font-size: 2vw;
+}
+
+#card22in img{
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#card22out{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+#card22out h1{
+    font-family: f2;
+    font-size: 1.2vw;
+}
+
+#card22out button{
+    padding: 7px 8px;
+    font-size: 0.7vw;
+    font-family: f2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+#card23in{
+    height: 85%;
+    width: 100%;
+    background-color: #E2C99C;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#card23{
+    width:19%;
+    height: 46vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+    padding: 15px;
+}
+#card23in h1{
+    font-family: f2;
+    font-size: 2vw;
+}
+
+#card23in img{
+    width: 145%;
+    position: absolute;
+    bottom: -1vw;
+    left: -6vw;
+}
+
+#card23out{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+#card23out h1{
+    font-family: f2;
+    font-size: 1.2vw;
+}
+
+#card23out button{
+    padding: 7px 8px;
+    font-size: 0.7vw;
+    font-family: f2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
+
+
+
+#card24in{
+    height: 85%;
+    width: 100%;
+    background-color: #E8AB9D;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#card24{
+    width:19%;
+    height: 46vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+    padding: 15px;
+}
+#card24in h1{
+    font-family: f2;
+    font-size: 2vw;
+}
+
+#card24in img{
+    width: 110%;
+    position: absolute;
+    bottom: -5.8vw;
+    left: -1.5vw;
+}
+
+#card24out{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+#card24out h1{
+    font-family: f2;
+    font-size: 1.2vw;
+}
+
+#card24out button{
+    padding: 7px 8px;
+    font-size: 0.7vw;
+    font-family: f2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.391);
+}
