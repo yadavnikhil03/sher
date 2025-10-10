@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 2.5px;
+}
+main section {
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 3;
+}
+main section:nth-child(1) {
+  background-image: url(https://tse3.mm.bing.net/th/id/OIP.lfHY0gX80yZzVneY2qjx9gHaNG?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+main section:nth-child(2) {
+  background-image: url(https://wallpaperaccess.com/full/4280410.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://tse2.mm.bing.net/th/id/OIP.dfMXgyy7-XDnErdVnznV4QHaJ4?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+main section:nth-child(4) {
+  background-image: url(https://wallpaperaccess.com/full/6933599.jpg);
+}/*# sourceMappingURL=style.css.map */
