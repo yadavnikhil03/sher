@@ -9,21 +9,21 @@ main{
     height: 100%;
     width: 100%;
     display: flex;
-    gap: 2.5px;
-
+    gap: 10px;
 
     section{
-        flex-grow: 1;
         background-size: cover;
         background-position: center;
-        transition: all 0.7s cubic-bezier(0.19,1,0.22,1);
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        cursor: pointer;
-    
+        height: 100%;
+        flex-grow: 1;
+        transition: all ease 0.7s;
+    //   background-color: black;
+    //   border: 2px solid black;
+      cursor: pointer;
     }
     
-    section:hover{
-        flex-grow: 3;
+       section:hover{
+        flex-grow: 2;
     }
     
     section:nth-child(1){
