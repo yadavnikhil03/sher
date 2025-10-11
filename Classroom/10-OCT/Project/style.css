@@ -16,7 +16,7 @@ main section {
   background-position: center;
   height: 100%;
   flex-grow: 1;
-  transition: all ease 0.7s;
+  transition: flex-grow 0.7s ease, transform 0.7s ease, filter 0.7s ease;
   cursor: pointer;
 }
 main section:hover {
@@ -29,8 +29,11 @@ main section:nth-child(2) {
   background-image: url(https://wallpaperaccess.com/full/4280410.jpg);
 }
 main section:nth-child(3) {
-  background-image: url(https://tse2.mm.bing.net/th/id/OIP.dfMXgyy7-XDnErdVnznV4QHaJ4?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-image: url(https://preview.redd.it/mphsh0x24r681.jpg?auto=webp&s=c43ca5583aed96faefd23db88be0d0e82d4e4a32);
 }
 main section:nth-child(4) {
+  background-image: url(https://wallpaperaccess.com/full/2644745.jpg);
+}
+main section:nth-child(5) {
   background-image: url(https://wallpaperaccess.com/full/6933599.jpg);
 }/*# sourceMappingURL=style.css.map */
