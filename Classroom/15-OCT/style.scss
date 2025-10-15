@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head, body{
+    height:100%;
+    width:100%;
+}
+
+// .red{
+//     height: 50vh;
+//     width: 50vw;
+//     background-color: red;
+// }
+
+// html{
+//     font-size: 40px; /*root font size*/
+// }
+// h1{
+//     font-size: 1rem; /* depends on the root font size i.e. html =16px default */
+// }
+
+
+// body{
+//     font-size: 120px; 
+// }
+// section{
+//     font-size: 180px; /*abhi h1 ka em se font size 180px hoga kyuki ye nearest ancestor hai*/
+// }
+// h1{
+//   font-size:1em; /* depends on the nearest ancestor's font size */
+// }
+
+
+// .red{
+//     height: 400px;
+//     width: 400px;
+//     background-color: red;
+// }
+
+// .blue{
+//     height: 50%; /* depend on the parent element i.e. red */
+//     width: 50%;
+//     background-color: blue;
+// }
+
+//   -----------fluid typography--------
+// clamp(minimum value, preferred value, maximum value)
+html{
+    font-size: clamp(14px, 1vw, 18px); /*2vw means 2% of viewport width*/
+}
+h1{
+    font-size:10rem; 
+}
